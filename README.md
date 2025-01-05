@@ -2,10 +2,10 @@
 ## Overview
 This project is a Flask-based web application that predicts the resale price of a car based on various input features, such as the year of the car, fuel type, number of previous owners, and other attributes . The application uses a pre-trained Random Forest Regressor model to make predictions. The model is trained on a dataset of car details and integrates user inputs through a web form to provide predictions.
 ## Project Structure
-* app.py::Main Flask application handling routes and logic.
-* rfrm.pkl:Pre-trained Random Forest Regressor model.
+* Flaskvaluator.py::Main Flask application handling routes and logic.
+* RANDOM_FOREST.pkl:Pre-trained Random Forest Regressor model.
 * templates/:Folder containing HTML file index.html
-* my_dataset.csv: Dataset used for training the model.
+* mydataset.csv: Dataset used for training the model.
 
 * ## Installation and Setup
 └── Car-Resale-Price-Estimator &nbsp;   /  #foldername <br>
